@@ -1,5 +1,8 @@
 # Power BI Embedded React Demo 2025 [Vite + React + TypeScript]
 
+
+![Screenshot](./docs/screenshot.png)
+
 This example demonstrates how to embed and interact with a Power BI report in a React application using the `powerbi-client-react` library. Key features include:
 
 - **Bootstrap and Embed**: The `App.tsx` sets up a bootstrap configuration. Clicking **Embed Report** prompts for an Embed URL and an access token to load the Power BI report.  
