@@ -33,16 +33,12 @@ const EmbedConfigDialog = ({
     setAreFieldsFilled(!!aadToken && !!embedUrl);
   }, [aadToken, embedUrl]);
 
-  const onAadTokenChange = (
-    event: React.ChangeEvent<HTMLInputElement>
-  ): void => {
-    setAadToken(event.target.value);
+  const onAadTokenChange = (event: React.FormEvent<HTMLElement>): void => {
+    setAadToken((event.target as HTMLInputElement).value);
   };
 
-  const onEmbedUrlChange = (
-    event: React.ChangeEvent<HTMLInputElement>
-  ): void => {
-    setEmbedUrl(event.target.value);
+  const onEmbedUrlChange = (event: React.FormEvent<HTMLElement>): void => {
+    setEmbedUrl((event.target as HTMLInputElement).value);
   };
 
   const runConfig = (): void => {
