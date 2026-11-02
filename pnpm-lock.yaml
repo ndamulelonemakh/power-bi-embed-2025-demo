@@ -24,8 +24,8 @@ importers:
         specifier: ^2.0.2
         version: 2.0.2(react@19.3.1)
       powerbi-report-authoring:
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: ^3.0.0
+        version: 3.0.0
       react:
         specifier: ^19.3.1
         version: 19.3.1
@@ -1003,14 +1003,11 @@ packages:
   powerbi-client@2.25.0:
     resolution: {integrity: sha512-h6jMorFGRiptWiuJ8O0ZCavLf3d1IaBdxEFP34YTx830yiUPnOJWGJrUbdY0fnyAPFO3GJz1BhqjkN9Q3CB7hg==}
 
-  powerbi-models@1.15.3:
-    resolution: {integrity: sha512-hzAG1Ih8hWBA83/cBy7mV+TDlRZVHEB6xjgYXBWd+LEuDZvxtTowSHis+c4Lk0LUMR/picCLxs5I8cSjVvTlNQ==}
-
   powerbi-models@2.2.0:
     resolution: {integrity: sha512-L8HcBLQQP1+y1382jnf6RoC6OtOB25TCdDpEkLTXeg4d2Uku8cUUVG0b8JyZ3j5yATohFBuj8oWstkQoCJJvoA==}
 
-  powerbi-report-authoring@2.0.0:
-    resolution: {integrity: sha512-z/n/PBeMMTEdFz/1J6rALIMtof1hqwWjqRzdX6jOvP08aDrgoa43xlvNncNU4AIhhK0ygY7apKCNCYTapUoZcA==}
+  powerbi-report-authoring@3.0.0:
+    resolution: {integrity: sha512-vSAhcicbxTtVkHFfBAfd+Msju0Roclr2bvIiy8NnhiLXyG0iUeYsGNmWmGW0nXrGlDMAMJgQTUEi1rNHDv8K0w==}
 
   powerbi-router@0.1.5:
     resolution: {integrity: sha512-DFJCKxwh/DqMZXtHSo6xZl87mbRviZGn4P7Oi2rT0L4HMI4AjnWIrwg0JCSM7ymBzYnNe5UmrsCaf2Upur5RQA==}
@@ -2063,15 +2060,13 @@ snapshots:
       powerbi-router: 0.1.5
       window-post-message-proxy: 0.3.0
 
-  powerbi-models@1.15.3: {}
-
   powerbi-models@2.2.0: {}
 
-  powerbi-report-authoring@2.0.0:
+  powerbi-report-authoring@3.0.0:
     dependencies:
       http-post-message: 0.2.5
       powerbi-client: 2.25.0
-      powerbi-models: 1.15.3
+      powerbi-models: 2.2.0
 
   powerbi-router@0.1.5:
     dependencies:
